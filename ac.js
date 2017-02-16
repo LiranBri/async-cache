@@ -106,5 +106,5 @@ AsyncCache.prototype.peek = function (key) {
 }
 
 AsyncCache.prototype.reload = function (key) {
-    AsyncCache.prototype.get(key, function(er, res) => {})
+    AsyncCache.prototype.get(key, function(er, res) {})
 }
