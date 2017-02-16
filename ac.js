@@ -104,3 +104,7 @@ AsyncCache.prototype.del = function (key) {
 AsyncCache.prototype.peek = function (key) {
   return this._cache.peek(key)
 }
+
+AsyncCache.prototype.reload = function (key) {
+    AsyncCache.prototype.get(key, function(er, res) => {})
+}
